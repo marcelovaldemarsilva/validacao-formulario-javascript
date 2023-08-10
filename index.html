@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Kaushan+Script&family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto&display=swap" rel="stylesheet">
+    
+    <title>Formulário Contato</title>
+</head>
+<body>
+    <div class="contact-us">
+        <h1>Fale Conosco</h1>
+        <p>Deixe sua mensagem abaixo, ficaremos feliz em receber seu contato!!!</p>
+    
+    </div>
+    <form>
+    <div class="inputField">
+        <label for="">Nome Completo:</label>
+        <input name="name" class="" placeholder="Digite seu nome..."/>
+        <p class="error error-hidden">o nome e obrigatório.</p>
+    </div>
+
+       <div class="inputField">
+        <label for="">E-mail:</label>
+        <input class="email" name="email" placeholder="Digite seu melhor e-mail..."/>
+        <p class="error error-hidden">o e-mail e obrigatório.</p>
+       </div>
+
+       <div class="inputField">
+        <label for="">Cpf:</label>
+        <input class="cpf" name="cpf" placeholder="000.000.000-00"/>
+        <p class="error error-hidden">O CPF e obrigatório ou no Formato errado, usar os caracteres de Ponto(.) e Traço(-)</p>
+       </div>
+
+    
+    <hr />
+    <button>Submit</button>
+    </form>
+    <div class="thanks error-hidden"><h2>Obrigado por seu Contato!!!</h2></div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
